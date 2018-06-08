@@ -1,0 +1,5 @@
+#!/bin/sh
+
+touch aws_file.txt
+
+aws s3 cp aws_file.txt s3://nawaz95/aws_file.txt
